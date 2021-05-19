@@ -55,10 +55,10 @@
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkBox1.Location = new System.Drawing.Point(145, 23);
+            this.checkBox1.Location = new System.Drawing.Point(306, 35);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(291, 20);
+            this.checkBox1.Size = new System.Drawing.Size(715, 44);
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Capture when pressing PrintScreen";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -83,8 +83,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.canvas);
-            this.splitContainer1.Size = new System.Drawing.Size(570, 455);
-            this.splitContainer1.SplitterDistance = 151;
+            this.splitContainer1.Size = new System.Drawing.Size(1191, 899);
+            this.splitContainer1.SplitterDistance = 203;
             this.splitContainer1.SplitterWidth = 6;
             this.splitContainer1.TabIndex = 2;
             // 
@@ -92,18 +92,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("ＭＳ ゴシック", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(12, 102);
+            this.label1.Location = new System.Drawing.Point(24, 127);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(238, 24);
+            this.label1.Size = new System.Drawing.Size(595, 60);
             this.label1.TabIndex = 3;
             this.label1.Text = "Open save directory";
             // 
             // openSaveDirectoryButton
             // 
-            this.openSaveDirectoryButton.Location = new System.Drawing.Point(269, 98);
+            this.openSaveDirectoryButton.Location = new System.Drawing.Point(1029, 22);
             this.openSaveDirectoryButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.openSaveDirectoryButton.Name = "openSaveDirectoryButton";
-            this.openSaveDirectoryButton.Size = new System.Drawing.Size(52, 37);
+            this.openSaveDirectoryButton.Size = new System.Drawing.Size(103, 71);
             this.openSaveDirectoryButton.TabIndex = 2;
             this.openSaveDirectoryButton.Text = "../";
             this.openSaveDirectoryButton.UseVisualStyleBackColor = true;
@@ -111,10 +111,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 14);
+            this.button1.Location = new System.Drawing.Point(22, 14);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 37);
+            this.button1.Size = new System.Drawing.Size(253, 79);
             this.button1.TabIndex = 1;
             this.button1.Text = "Capture";
             this.button1.UseVisualStyleBackColor = true;
@@ -127,36 +127,37 @@
             this.canvas.Location = new System.Drawing.Point(0, 0);
             this.canvas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.canvas.Name = "canvas";
-            this.canvas.Size = new System.Drawing.Size(570, 298);
+            this.canvas.Size = new System.Drawing.Size(1191, 690);
             this.canvas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.canvas.TabIndex = 0;
             this.canvas.TabStop = false;
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openSaveDirectoryToolStripMenuItem,
             this.toolStripSeparator1,
             this.exitFToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(180, 54);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(363, 106);
             // 
             // openSaveDirectoryToolStripMenuItem
             // 
             this.openSaveDirectoryToolStripMenuItem.Name = "openSaveDirectoryToolStripMenuItem";
-            this.openSaveDirectoryToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.openSaveDirectoryToolStripMenuItem.Size = new System.Drawing.Size(362, 48);
             this.openSaveDirectoryToolStripMenuItem.Text = "Open save directory";
             this.openSaveDirectoryToolStripMenuItem.Click += new System.EventHandler(this.openSaveDirectoryToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(176, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(359, 6);
             // 
             // exitFToolStripMenuItem
             // 
             this.exitFToolStripMenuItem.Name = "exitFToolStripMenuItem";
-            this.exitFToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.exitFToolStripMenuItem.Size = new System.Drawing.Size(362, 48);
             this.exitFToolStripMenuItem.Text = "Exit (&F)";
             this.exitFToolStripMenuItem.Click += new System.EventHandler(this.exitFToolStripMenuItem_Click);
             // 
@@ -170,9 +171,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(24F, 47F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(570, 455);
+            this.ClientSize = new System.Drawing.Size(1191, 899);
             this.Controls.Add(this.splitContainer1);
             this.Font = new System.Drawing.Font("ＭＳ ゴシック", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
